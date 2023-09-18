@@ -1,0 +1,618 @@
+---
+# title: "非靶向代谢组学报告"
+# subtitle: 'Untargeted Metabolomics Report '
+output:
+  html_document:
+    css: style.css
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
+---
+
+<!-- zoom in figure  -->
+
+```{css zoom-lib-src, echo = FALSE}
+script src = "https://cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"
+```
+
+```{js zoom-jquery, echo = FALSE}
+ $(document).ready(function() {
+    $('body').prepend('<div class=\"zoomDiv\"><img src=\"\" class=\"zoomImg\"></div>');
+    // onClick function for all plots (img's)
+    $('img:not(.zoomImg)').click(function() {
+      $('.zoomImg').attr('src', $(this).attr('src')).css({width: '100%'});
+      $('.zoomDiv').css({opacity: '1', width: 'auto', border: '1px solid white', borderRadius: '5px', position: 'fixed', top: '50%', left: '50%', marginRight: '-50%', transform: 'translate(-50%, -50%)', boxShadow: '0px 0px 50px #888888', zIndex: '50', overflow: 'auto', maxHeight: '100%'});
+    });
+    // onClick function for zoomImg
+    $('img.zoomImg').click(function() {
+      $('.zoomDiv').css({opacity: '0', width: '0%'}); 
+    });
+  });
+```
+
+```{r, echo=FALSE, message=FALSE}
+## part 1
+suppressPackageStartupMessages(library(glue, quietly = T))
+project_info_file = "project_info.xls"
+project_info <- read.csv(project_info_file, sep="\t", stringsAsFactors = F, header=T)
+sample_num = project_info[1, "SampleNum"]
+sample_type = project_info[1, "SampleType"]
+sample_info_file = "sample_info.xls"
+group_info_file = "vs_group.xls"
+max_row_show = 30
+figure_height = "300px"
+group <- read.csv(group_info_file, header=T, sep="\t", stringsAsFactors = F)
+for(group_idx in 1:NROW(group)){
+  group_ <- paste(as.character(group[group_idx, ]), collapse = "_")
+  if(file.exists(glue("Output/4.MetaboliteComparison/{group_}/KEGG/kegg.level2.csv"))){
+    first_group <- group_
+    break
+  }
+}
+stopifnot(exists("first_group"))
+
+#first_group <- paste(as.character(group[1, ]), collapse = "_")
+## part 2 
+fig_quality_control_tic = "Output/FeatureDetection/neg/neg.tic.all.facet.png"
+fig_quality_control_mz_rt = "Output/FeatureDetection/neg/neg-mz-rt.png"
+## part 3.1
+data_metabolite_identification_stat = "Output/2.MetaboliteIdentification/identification.stat.csv"
+## part 3.2
+data_metabolite_identification = "Output/2.MetaboliteIdentification/identification.raw.intensity.csv"
+## part 3.3
+data_metabolite_identification_kegg = "Output/2.MetaboliteIdentification/KEGG/kegg.csv"
+fig_metabolite_identification_kegg_level1 = "Output/2.MetaboliteIdentification/KEGG/kegg.level2.feature.png"
+fig_metabolite_identification_kegg_metabolite = "Output/2.MetaboliteIdentification/KEGG/kegg.level3.MetabolismPathway.feature.png"
+fig_metabolite_identification_kegg_enrichment = "Output/2.MetaboliteIdentification/KEGG/kegg.level3.qvalue.png"
+## part 3.4
+fig_metabolite_identification_hmdb = "Output/2.MetaboliteIdentification/HMDB/countClass.png"
+fig_metabolite_identification_hmdb_rt = "Output/2.MetaboliteIdentification/HMDB/countRT.png"
+fig_metabolite_identification_hmdb_mz_rt = "Output/2.MetaboliteIdentification/HMDB/countMZ-RT.png"
+
+## part 4.1
+fig_feature_peak_cv = "Output/3.MetaboliteQuantification/Feautre2quant/neg/neg-norm-peakCV.png"
+#fig_feature_boxplot = "Output/3.MetaboliteQuantification/Feautre2quant/neg/intensity.boxplot.png"
+fig_feature_heatmap = "Output/3.MetaboliteQuantification/Feautre2quant/neg/intensity.heatmap.cluster.png"
+fig_feature_pca = "Output/3.MetaboliteQuantification/Feautre2quant/neg/pca.score.png"
+fig_feature_corr = "Output/3.MetaboliteQuantification/Feautre2quant/neg/sample.correlation.png"
+
+## part 4.2
+#fig_metbolite_boxplot = "Output/3.MetaboliteQuantification/Metabolite2quant/neg/"
+fig_metabolite_heatmap = "Output/3.MetaboliteQuantification/Metabolite2quant/neg/Metabolite.intensity.heatmap.cluster.png"
+fig_metabolite_circos = "Output/3.MetaboliteQuantification/Metabolite2quant/neg/Metabolite.intensity.mean.circle.png"
+fig_metabolite_corr = "Output/3.MetaboliteQuantification/Metabolite2quant/neg/Metabolite.correlation.png"
+## part 5.1
+data_sig_ion_statistics = "Output/4.MetaboliteComparison/comparison.stat.csv"
+fig_sig_ion_statistics = "Output/4.MetaboliteComparison/comparison_stat.png"
+
+## part 5.2
+data_sig_ion = glue("Output/4.MetaboliteComparison/{first_group}/{first_group}.all.csv")
+fig_sig_ion_volcano = glue("Output/4.MetaboliteComparison/{first_group}/{first_group}.volcanoplot.png")
+fig_sig_ion_heatmap = glue("Output/4.MetaboliteComparison/{first_group}/{first_group}.heatmap_Metabolite.png")
+
+## part 5.3
+fig_group_pca_score = glue("Output/4.MetaboliteComparison/{first_group}/{first_group}.neg.pca.score.png")
+
+fig_group_plsda_validation = glue("Output/4.MetaboliteComparison/{first_group}/{first_group}.neg.plsda.validation.png")
+fig_group_plsda_score = glue("Output/4.MetaboliteComparison/{first_group}/{first_group}.neg.plsda.score.png")
+
+## part 5.4
+data_sig_ion_kegg = glue("Output/4.MetaboliteComparison/{first_group}/KEGG/kegg.level2.csv")
+fig_sig_ion_kegg_level2 = glue("Output/4.MetaboliteComparison/{first_group}/KEGG/kegg.level2.png")
+fig_sig_ion_kegg_level3 = glue("Output/4.MetaboliteComparison/{first_group}/KEGG/kegg.level3.MetabolismPathway.feature.png")
+fig_sig_ion_kegg_pathway = glue("Output/4.MetaboliteComparison/{first_group}/KEGG/kegg.level3.pvalue.png")
+
+## part 7
+barcode = "/home/project/pipelines/Metabolomics/Metabolomics_pipe_V1.2/bin/script/pics/lk-weixin.png"
+logo = "/home/project/pipelines/Metabolomics/Metabolomics_pipe_V1.2/bin/script/pics/lk.png"
+
+
+## create empty fig
+for(attr in ls()){
+  if(startsWith(attr, "fig_")){
+    if(!file.exists(get(attr))){
+      dir.create(dirname(get(attr)), recursive = T)
+      cat(NULL, file=get(attr))
+    }
+  }
+}
+```
+
+<div> 
+  <div style= "float:left;position: relative;">
+  ```{r echo=FALSE, fig.align="left", out.height="60px", out.width="auto"}
+  knitr::include_graphics(logo, error=F)
+  ```
+  </div>
+  <div style="text-align:right;color:#FFAA47;font-size:18px;pading-bottom:0px;">
+  联川诊断
+  </div>
+</div>
+<br />
+
+<div id="header">
+
+  <h1 class="title toc-ignore">非靶向代谢组学报告</h1>
+  <h3 class="subtitle">Untargeted Metabolomics Report</h3>
+
+</div>
+
+
+<div> 
+  <div style= "float:left;position: relative;">
+  ```{r echo=FALSE, fig.align="left", out.height="60px", out.width="auto"}
+  knitr::include_graphics(logo, error=F)
+  ```
+  </div>
+  <div style="text-align:right;color:#FFAA47;font-size:18px;pading-bottom:0px;">
+  联川诊断
+  </div>
+</div>
+<br />
+
+---
+
+ 
+# 一、项目信息
+
+## 1.1 项目概述
+
+本项目利用高分辨率质谱仪（Q Exactive(Thermo Fisher Scientific, USA)），采用LC-MS/MS技术对`r sample_num`个`r sample_type`样品分别采集正离子（pos）和负离子（neg）两种模式的数据进行非靶向代谢组学检测，探索样品内代谢组学组成以及生物功能。
+
+
+使用Compound Discoverer 3.1.0 (Thermo Fisher Scientific, USA)软件进行数据处理，主要为峰提取、峰对齐、Fill Gaps和化合物鉴定。使用in-house代谢组信息分析流程对鉴定物质进行代谢物注释、分类（KEGG、HMDB）和富集分析，解释代谢物的物理化学性质、生物功能。使用 R 软件包metaX[1]进行数据预处理、统计分析（单变量分析和多变量分析）和显著性差异代谢物筛选：基于多变量分析PLS-DA(Partial Least Squares Method-Discriminant Analysis，偏最小二乘法-判别分析)[2] 模型前两个主成分的 VIP 值和单 变量分析差异倍数(Fold change)和T检验（Student's t test）的结果来筛选差异代谢物。
+
+## 1.2 样本信息
+
+```{r, echo=FALSE, message=FALSE}
+library(DT)
+sample_info <- read.table(sample_info_file, sep="\t", header=T, stringsAsFactors = F)
+sample_info[is.na(sample_info$class), "class"] = "NA"
+datatable(sample_info, caption = "表1：样品信息", class="stripe", options = list(columnDefs = 
+                           list(list(className = 'dt-center', 
+                                     targets = "_all"))))
+```
+
+SampleID为样本原始ID，SampleName为样本分析ID，class为样本组别信息，其中QC的组别信息为NA，batch为样本上机批次，order为样本检测顺序。
+
+<div> 
+  <div style= "float:left;position: relative;">
+  ```{r echo=FALSE, fig.align="left", out.height="60px", out.width="auto"}
+  knitr::include_graphics(logo, error=F)
+  ```
+  </div>
+  <div style="text-align:right;color:#FFAA47;font-size:18px;pading-bottom:0px;">
+  联川诊断
+  </div>
+</div>
+<br />
+
+---
+
+# 二、数据质控
+
+基于离子强度绘制每个样品的TIC（Total icon Chromatogram, 总离子流图，以时间点为横坐标，以每个时间点质谱图中所有离子的强度加和为纵坐标，连续描绘得到的图谱），可以整体把控样品质谱信号强度。将所有QC样本的 TIC 进行重叠判断质谱仪离子采集期间的稳定性（谱图重叠良好，保留时间和峰响应强度均波动小，表明仪器在整个样本检测分析过程中状态良好，信号稳定）。将所有QC样本的 TIC 进行重叠判断同组内样本平行性和不同组样本间的差异。
+
+```{r, echo=FALSE, fig.align="center", fig.cap="图1：TIC图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_quality_control_tic, error=F)
+```
+
+将总离子在荷质比（M/Z）和保留时间（Retention time）维度进行分布分析，以横坐标表示物质保留时间，纵坐标表示物质m/z绘制mz-rt分布图，图中每一个点代表一个离子，颜色表示离子在该区域的密集情况。
+
+```{r, echo=FALSE, fig.align="center", fig.cap="图2：mz-rt分布图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_quality_control_mz_rt, error=F)
+```
+
+<div> 
+  <div style= "float:left;position: relative;">
+  ```{r echo=FALSE, fig.align="left", out.height="60px", out.width="auto"}
+  knitr::include_graphics(logo, error=F)
+  ```
+  </div>
+  <div style="text-align:right;color:#FFAA47;font-size:18px;pading-bottom:0px;">
+  联川诊断
+  </div>
+</div>
+<br />
+
+---
+
+# 三、代谢物鉴定
+
+## 3.1 代谢物鉴定总览
+
+代谢物鉴定使用使用Compound Discoverer 3.1.0 (Thermo Fisher Scientific, USA)软件：先将LC-MS/MS采集的质谱原始数据（.raw文件）导入，然后依次进行：峰提取和过滤、样本保留时间对齐、加合离子合并、缺失值填充以及代谢物鉴定，代谢物鉴定结合了 in-house代谢物二级质谱图谱库、mzCloud、mzVault、Mass list、ChemSpider（HMDB、KEGG、LipidMaps）多个数据库。最后得到各个离子的分子量、保留时间、峰面积和代谢物鉴定结果等信息。
+
+注：由于部分代谢物的化学组成一样，元素排序不一样造成物质拥有很多同分异构体，这些同分异构体的分子量一样，依靠质谱很难区分，因此鉴定结果会出现有多个物质对应1代谢物的情况。
+
+```{r echo=FALSE, message=FALSE}
+data <- read.csv(data_metabolite_identification_stat, header=T)
+datatable(data, caption = "表2：代谢物鉴定统计表", class="stripe", options = list(columnDefs = 
+                           list(list(className = 'dt-center', 
+                                     targets = "_all"))))
+```
+
+**表格说明**
+
+| 表头          | 说明                       |
+|:--------------|:---------------------------|
+| `mode`        | 质谱仪器检测物质的模式：pos（正离子模式）和neg（负离子模式）|
+| `All`         | 提取到的离子数目                                            |
+| `Metabolite`  | 鉴定到代谢物的离子数目                                      |
+| `HMDB`        | 注释到HMDB的离子数量                                        |
+| `KEGG`        | 注释到KEGG的离子数量                                        |
+
+
+
+## 3.2 代谢物鉴定结果
+
+两种模式下，每个离子的鉴定结果见下表：
+
+```{r echo=FALSE, message=FALSE}
+library(DT)
+data <- read.csv(data_metabolite_identification, nrows = max_row_show)
+datatable(data, caption = "表3：代谢物鉴定结果", class="stripe", extensions = 'Buttons', options = list(dom = 'Bfrtip', buttons = I('colvis'), scrollX=TRUE, fixedColumns=TRUE) )
+```
+
+## 3.3 代谢物KEGG注释
+
+KEGG数据库（Kyoto Encyclopedia of Genes and Genomes）的构建旨在了解生物系统（如细胞，组织等）中基因、代谢及代谢物的功能及相互作用关系，是由研究人员基于文献后众多的代谢途径以特定的图形语言整理而成的数据库。KEGG代谢通路共分为7个分支：细胞过程(Cellular Processes)、环境信息处理(Environmental Information Processing)、遗传信息处理(Genetic Information Processing)、人类疾病(Human Diseases)(仅限动物)、代谢(Metabolism)、有机系统(Organismal Systems)、药物开发(Drug Development)，是最常常的通路研究的数据库之一。
+
+```{r echo=FALSE, message=FALSE}
+library(DT)
+data <- read.csv(data_metabolite_identification_kegg, nrows = max_row_show)
+datatable(data, caption = "表4：KEGG注释结果", class="stripe", extensions = 'Buttons', options = list(dom = 'Bfrtip', buttons = I('colvis'), scrollX=TRUE, fixedColumns=TRUE, columnDefs = list(
+      list(targets = 11, visible = FALSE)
+    )) )
+```
+
+**表格说明**
+
+
+| 表头          | 说明                       |
+|:--------------|:---------------------------|
+| `Level1`      | KEGG通路level 1信息        |
+| `Level2`      | KEGG通路level 2信息        |
+| `Pathway`     | KEGG通路信息               |
+| `Pathway ID`  | KEGG通路ID                 |
+| `NumFeature`  | 注释到该通路的离子数量     |
+| `NumCompound` | 注释到该通路的代谢物数量   |
+| `Background`  | 该通路中包含的代谢物数量   |
+| `Pvalue`      | 富集分析p值                |
+| `FDR`         | 富集分析FDR值              |
+| `Compound`    | 注释到该通路的化合物       |
+| `CompoundID`  | 注释到该通路的代谢物KEGG ID|
+| `Feature`     | 注释到该通路的离子         |
+
+对注释到KEGG level2和level 3（pathway）的离子和代谢物分别绘制柱状图，统计注释到不同层级通路上的离子和代谢物数量。
+
+```{r echo=FALSE, fig.align="center", fig.cap="图4：KEGG level2 注释结果柱状图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_metabolite_identification_kegg_level1, error=F)
+```
+
+
+```{r echo=FALSE, fig.align="center",  fig.cap="图5：KEGG pathway注释结果柱状图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_metabolite_identification_kegg_metabolite, error=F)
+```
+
+以KEGG数据库中化合物为背景，对鉴定到的代谢物，进行具体Pathway富集。
+
+```{r echo=FALSE, fig.align="center", fig.cap="图6：KEGG 富集散点图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_metabolite_identification_kegg_enrichment, error=F)
+```
+
+
+## 3.4 代谢物HMDB注释
+
+HMDB（The Human Metabolome Database，人类代谢组数据库）是一个可联网的数据库，是目前收录人源代谢物最全的数据库之一。数据库数据包含三大类：a.化学数据、b.临床数据、c.分析生物学和生物化学数据，涉及有关人类代谢物及其生物学作用、生理浓度、疾病关联、化学反应、代谢途径和参考光谱等综合信息。水溶性和脂溶性代谢物均收录其中。此外，收录信息还提供其他数据库的链接（如：KEGG，PubChem等），方便查阅。
+
+```{r echo=FALSE, fig.align="center", fig.cap="图7：HMDB注释柱状图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_metabolite_identification_hmdb, error=F)
+```
+
+```{r echo=FALSE, fig.align="center", fig.cap="图8：不同保留时间下离子HMDB注释柱状图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_metabolite_identification_hmdb_rt, error=F)
+```
+
+```{r echo=FALSE, fig.align="center", fig.cap="图9：不同保留时间下离子HMDB注释散点图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_metabolite_identification_hmdb_mz_rt, error=F)
+```
+
+<div> 
+  <div style= "float:left;position: relative;">
+  ```{r echo=FALSE, fig.align="left", out.height="60px", out.width="auto"}
+  knitr::include_graphics(logo, error=F)
+  ```
+  </div>
+  <div style="text-align:right;color:#FFAA47;font-size:18px;pading-bottom:0px;">
+  联川诊断
+  </div>
+</div>
+<br />
+
+---
+
+# 四、代谢物定量
+
+使用metaX将Compound Discoverer 3.1.0导出的原始离子强度结果进行数据预处理: 1.使用概率商归一化方法 (Probabilistic Quotient Normalization, PQN[3]) 对数据进行归一化，得到每个样品的归一化后离子强度数据；2.采用 QC-RLSC[4] (Quality control-based robust LOESS signal correction, 局部多项式回归拟合信号校正)对批次效应进行校正；3.剔除所有QC 样品中相对峰面积CV (Coefficient of Variation, 变异系数)大于30%的离子。
+
+概率商归一化（PQN）：概率商归一化是指对于每一个特征，计算所有 QC 样品的平均值，得到参考矢量；计算参考矢量与每个样本之间的中值，获得与每个样本相关的系数矢量，然后将每个样本除以系数向量的中值（每个样本的中值不同），由此进行归一化。
+
+QC-RLSC：基于QC样本信息对真实样本信号进行局部多项式回归拟合信号校正（QCRLSC）是代谢组领域组学数据分析中比较有效的数据校正方法。
+
+归一化后的数据为：summary/3.MetaboliteQuantification/*-norm-metaboAnalystInput.xls，研究者可以使用此数据用公共的数据分析平台进行个性化分析，如MetaboAnalysis，metaX，这些平台可以调整参数重新分析数据，如单变量分析：比值分析、T检验、Wilcoxon检验、ROC，多变量分析：PCA、PLS-DA等。
+
+## 4.1 离子定量
+
+对归一化后的离子峰的定量信息进行质量评估，包括离子峰在每个样品的强度分布、层次聚类、PCA，生物重复性。
+
+生物差异统计一般设置生物重复，计算每个离子峰在生物重复中的差异系数（coefficient of variation)，然后进行统计。
+
+
+```{r echo=FALSE, fig.align="center", fig.cap="图10：CV分布图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_feature_peak_cv, error=F)
+```
+
+<!-- 利用箱线图进行离子峰强度分布展示 -->
+
+<!-- ```{r echo=FALSE, fig.align="center", fig.cap="图11：离子强度Boxplot图", out.height=figure_height, out.width="auto"} -->
+<!-- knitr::include_graphics(fig_feature_boxplot, error=F) -->
+<!-- ``` -->
+
+利用层次聚类和热图展示离子峰相对强度和样品间的聚类关系
+
+```{r echo=FALSE, fig.align="center", fig.cap="图12：离子强度Heatmap图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_feature_heatmap, error=F)
+```
+
+主成分分析（PCA，Principal Component Analysis）是一种通过降维技术把多个变量转化成少数几个重要变量（主成分）的多元统计分析方法。通过少数几个主成分来代表原始数据的整体情况。
+
+```{r echo=FALSE, fig.align="center", fig.cap="图13：PCA图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_feature_pca, error=F)
+```
+
+利用离子峰强度计算样品间相关性
+
+```{r echo=FALSE, fig.align="center", fig.cap="图13：样本相关性图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_feature_corr, error=F)
+```
+
+## 4.2 代谢物定量
+
+对于鉴定到的代谢物提取定量信息做单独展示，主要包括在所有生物样品中的强度分布、代谢物与代谢物之间的相关性等。
+
+热图展示鉴定到的代谢物在每个样品的强度
+
+```{r echo=FALSE, fig.align="center", fig.cap="图15：代谢物离子强度heatmap图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_metabolite_heatmap, error=F)
+```
+
+代谢物进行平均强度进行展示，可以宏观的看到所有代谢物的强度分布
+
+```{r echo=FALSE, fig.align="center", fig.cap="图16：代谢物平均强度环形柱状图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_metabolite_circos, error=F)
+```
+
+代谢物相关性分析
+
+```{r echo=FALSE, fig.align="center", fig.cap="图17：代谢物相关性图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_metabolite_corr, error=F)
+```
+
+<div> 
+  <div style= "float:left;position: relative;">
+  ```{r echo=FALSE, fig.align="left", out.height="60px", out.width="auto"}
+  knitr::include_graphics(logo, error=F)
+  ```
+  </div>
+  <div style="text-align:right;color:#FFAA47;font-size:18px;pading-bottom:0px;">
+  联川诊断
+  </div>
+</div>
+<br />
+
+---
+
+# 五、差异分析
+
+代谢组学分析的主要目的是从检测到的大量代谢物中筛选出具有统计学和生物学意义的代谢物，并以此为基础阐明生物体的代谢过程和变化机制。由于代谢组学数据具有“高维、海量”的特点，因此需要用单维和多维的方法根据数据特性从不同角度进行分析。使用开源的MetaX代谢组学分析流程，可进行单变量和多变量分析，从而获得组间差异代谢物；其方法包括参数检验和非参数检验、差异表达倍数分析、主成分分析PCA、偏最小二乘法判别分析PLS-DA（>3样品）等。
+
+## 5.1 差异离子总览
+
+项目采用单变量分析差异倍数（fold-change）和T统计检验得到的p-value值,结合多变量统计分析PLS-DA得到的VIP值（Variable Important for the Projection），来筛选差异表达的代谢物。差异离子需同时满足:
+
+1）ratio >= 2 或者 ratio <= 1/2；
+
+2）p value <= 0.05；
+
+3）VIP ≥ 1
+
+```{r echo=FALSE, message=FALSE}
+data <- read.csv(data_sig_ion_statistics, header=T)
+datatable(data, caption = "表5：差异离子及鉴定结果", class="stripe", options = list(columnDefs = 
+                           list(list(className = 'dt-center', 
+                                     targets = "_all"))))
+```
+
+```{r echo=FALSE, fig.align="center", fig.cap="图18：差异离子数量柱状图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_sig_ion_statistics, error=F)
+```
+
+## 5.2 差异离子定量数据
+
+归一化后数据在设置比较组后，进行统计分析，包括比值计算、T检验、Wilcoxon检验、PLS-DA、CV计算等。结果见：`summary\4.MetaboliteComparison\比较组`。
+
+```{r echo=FALSE, message=FALSE}
+library(DT)
+data <- read.csv(data_sig_ion, nrows = max_row_show)
+datatable(data, caption = "表6：差异离子结果", class="stripe", extensions = 'Buttons', options = list(dom = 'Bfrtip', buttons = I('colvis'), scrollX=TRUE, fixedColumns=TRUE) )
+```
+
+**表格说明**
+
+| 表头                           | 说明                       |
+|:-------------------------------|:---------------------------|
+| `ID`                           | 物质名字，由荷质比（M）和保留时间（T）共同确定一种物质        |
+| `ratio`                        | 物质比值，比较组请看“sample”列      |
+| `t.test_p.value`               | T检验p值               |
+| `wilcox.test_p.value`          | Wilcoxon检验p值                 |
+| `t.test_p.value_BHcorrect`     | T检验进行BH校正得到的q值     |
+| `wilcox.test_p.value_BHcorrect`| Wilconxon检验进行BH校正得到的q值   |
+| `VIP`                          | PLS-DA模型的变量投影重要度   |
+| `cv`                           | QC样品在归一化后的变异系数             |
+| `regulated`                    | 通过差异阈值判断是否差异代谢物              |
+
+通过火山图（Volcano Plot）对差异代谢进行可视化展示
+
+```{r echo=FALSE, fig.align="center", fig.cap="图22：差异离子火山图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_sig_ion_volcano, error=F)
+```
+
+对差异代谢物进行聚类分析，聚类算法采用的是层次聚类 (Hierarchical Cluster)，距离计算使用欧氏距离
+
+```{r echo=FALSE, fig.align="center", fig.cap="图23：差异离子heatmap图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_sig_ion_heatmap, error=F)
+```
+
+## 5.3 差异离子多变量统计分析
+
+**主成分分析(PCA) **
+
+主成分分析（PCA，Principal Component Analysis）是一种降维方法，即把多个变量形成一组新的综合变量，再从中选取几个（通常是2-3个），使它们尽可能多地反映原有变量信息，从而达到降维目的的方法。PCA主要用于观察实验模型中的组间分离趋势，以及是否有异常点出现，同时从原始数据上反映组间和组内的变异度。
+
+每个比较组两两表型的PCA图：
+
+```{r echo=FALSE, fig.align="center", fig.cap="图19：差异比较组PCA得分图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_group_pca_score, error=F)
+```
+
+**PLS-DA模型评估**
+
+R2模型的拟合效果，代表的是模型的解释率，意味着所建立的模型能在多大程度上代表真实的数据。R2值越接近1，表示该PLSDA模型的解释能力越好。一般当R2在0.7-0.8表示模型解释能力较好，较差的模型的R2往往为0.2-0.3.
+
+Q2通过交叉验证计算得出，表示PLS-DA模型的预测能力。Q2值越接近1，表示该PLSDA模型的预测能力越好。一般Q2大于0.5表示预测能力较好，并且R2与Q2的值应该比较接近。
+
+Intercept R2和Intercept Q2表示对PLSDA模型进行200次交叉验证，R2拟合线和Q2拟合线与纵轴的交点坐标，一般要求Q2小于0。
+
+
+```{r echo=FALSE, fig.align="center", fig.cap="图20：PLS-DA分析模型的响应排序检验图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_group_plsda_validation, error=F)
+```
+
+最右侧的两个点分别为模型真实的R2Y和Q2值，其余各点为所用的样本随机排列后得到的R2和Q2值，此结果主要用于判断模型是否过拟合以及模型的有效性
+
+```{r echo=FALSE, fig.align="center", fig.cap="图21：PLS-DA分析模型得分图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_group_plsda_score, error=F)
+```
+
+## 5.4 差异离子富集分析
+
+```{r echo=FALSE, message=FALSE}
+library(DT)
+data <- read.csv(data_sig_ion_kegg, nrows = 30)
+datatable(data, caption = "表7：差异离子KEGG注释结果", class="stripe", extensions = 'Buttons', options = list(dom = 'Bfrtip', buttons = I('colvis'), scrollX=TRUE, fixedColumns=TRUE) )
+```
+
+**表格说明**
+
+
+| 表头          | 说明                       |
+|:--------------|:---------------------------|
+| `Level1`      | KEGG通路level 1信息        |
+| `Level2`      | KEGG通路level 2信息        |
+| `Pathway`     | KEGG通路信息               |
+| `Pathway ID`  | KEGG通路ID                 |
+| `NumFeature`  | 注释到该通路的离子数量     |
+| `NumCompound` | 注释到该通路的代谢物数量   |
+| `Background`  | 该通路中包含的代谢物数量   |
+| `Pvalue`      | 富集分析p值                |
+| `FDR`         | 富集分析FDR值              |
+| `Compound`    | 注释到该通路的化合物       |
+| `CompoundID`  | 注释到该通路的代谢物KEGG ID|
+| `Feature`     | 注释到该通路的离子         |
+
+对注释到KEGG level2和level 3（pathway）的离子和代谢物分别绘制柱状图，统计注释到不同层级通路上的离子和代谢物数量。
+
+```{r echo=FALSE, fig.align="center", fig.cap="图24：KEGG level2 注释结果柱状图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_sig_ion_kegg_level2, error=F)
+```
+
+```{r echo=FALSE, fig.align="center", fig.cap="图25：KEGG pathway注释结果柱状图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_sig_ion_kegg_level3, error=F)
+```
+
+以KEGG数据库中化合物为背景，对鉴定到的显著性差异代谢物，进行具体Pathway富集。
+
+```{r echo=FALSE, fig.align="center", fig.cap="图26：显著性差异代谢物KEGG 富集散点图", out.height=figure_height, out.width="auto"}
+knitr::include_graphics(fig_sig_ion_kegg_pathway, error=F)
+```
+
+<div> 
+  <div style= "float:left;position: relative;">
+  ```{r echo=FALSE, fig.align="left", out.height="60px", out.width="auto"}
+  knitr::include_graphics(logo, error=F)
+  ```
+  </div>
+  <div style="text-align:right;color:#FFAA47;font-size:18px;pading-bottom:0px;">
+  联川诊断
+  </div>
+</div>
+<br />
+
+---
+
+# 六、参考文献
+
+[1] Wen, B., et al.metaX: a flexible and comprehensive software for processing metabolomics data. BMC Bioinformatics 2017,18(1): 183.
+
+[2] Barker, M.; Rayens, W., Partial least squares for discrimination. J Chemometr 2003, 17(3):166-173. [5] Westerhuis J A , Hoefsloot H C J , Smit S , et al. Assessment of PLSDA cross validation[J]. Metabolomics, 2008, 4(1):81-89.
+
+[3] Guida R D , Engel J , Allwood J W , et al. Non-targeted UHPLC-MS metabolomic data processing methods: a comparative investigation of normalisation, missing value imputation, transformation and scaling[J]. Metabolomics, 2016, 12(5):93.
+
+[4] Dunn W B , Broadhurst D , Begley P , et al. Procedures for large-scale metabolic profiling of serum and plasma using gas chromatography and liquid chromatography coupled to mass spectrometry.[J]. Nature Protocols, 2011, 6(7):1060-83.
+
+<div> 
+  <div style= "float:left;position: relative;">
+  ```{r echo=FALSE, fig.align="left", out.height="60px", out.width="auto"}
+  knitr::include_graphics(logo, error=F)
+  ```
+  </div>
+  <div style="text-align:right;color:#FFAA47;font-size:18px;pading-bottom:0px;">
+  联川诊断
+  </div>
+</div>
+<br />
+
+---
+
+# 七、联系我们
+
+```{r echo=FALSE, fig.align="center"}
+knitr::include_graphics(barcode, error=F)
+```
+
+地址：杭州经济技术开发区下沙6号大街260号中自科技园16幢4层
+
+
+邮政编码：310018 邮箱：support@lc-bio.com 电话：0571-87662413
+
+
+如果您有任何问题，欢迎随时与我们联系。
+
+
+扫描二维码，关注联川诊断微信公众号
+
+
+样品提取怎么办？样品降解怎么办？数据分析不会怎么办？如何发表高质量的论文？更多资讯请随时关注联川诊断公众微信号，回复特定关键词提取相关信息。
+
+
+<!-- --- -->
+
+<!-- 地 址：杭州经济技术开发区下沙6号大街260号中自科技园16幢4层 -->
+
+<!-- 网址: [http://www.lc-bio.com/](http://www.lc-bio.com/) Email: support@lc-bio.com -->
+
+<!-- 联系电话：0571-87662413 -->

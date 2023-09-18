@@ -1,0 +1,2742 @@
+{
+    "map01100": {
+        "level1": "Metabolism",
+        "level2": "Global and overview maps",
+        "level3": "Metabolic pathways"
+    },
+    "map01110": {
+        "level1": "Metabolism",
+        "level2": "Global and overview maps",
+        "level3": "Biosynthesis of secondary metabolites"
+    },
+    "map01120": {
+        "level1": "Metabolism",
+        "level2": "Global and overview maps",
+        "level3": "Microbial metabolism in diverse environments"
+    },
+    "map01200": {
+        "level1": "Metabolism",
+        "level2": "Global and overview maps",
+        "level3": "Carbon metabolism"
+    },
+    "map01210": {
+        "level1": "Metabolism",
+        "level2": "Global and overview maps",
+        "level3": "2-Oxocarboxylic acid metabolism"
+    },
+    "map01212": {
+        "level1": "Metabolism",
+        "level2": "Global and overview maps",
+        "level3": "Fatty acid metabolism"
+    },
+    "map01230": {
+        "level1": "Metabolism",
+        "level2": "Global and overview maps",
+        "level3": "Biosynthesis of amino acids"
+    },
+    "map01240": {
+        "level1": "Metabolism",
+        "level2": "Global and overview maps",
+        "level3": "Biosynthesis of cofactors"
+    },
+    "map01220": {
+        "level1": "Metabolism",
+        "level2": "Global and overview maps",
+        "level3": "Degradation of aromatic compounds"
+    },
+    "map00010": {
+        "level1": "Metabolism",
+        "level2": "Carbohydrate metabolism",
+        "level3": "Glycolysis / Gluconeogenesis"
+    },
+    "map00020": {
+        "level1": "Metabolism",
+        "level2": "Carbohydrate metabolism",
+        "level3": "Citrate cycle (TCA cycle)"
+    },
+    "map00030": {
+        "level1": "Metabolism",
+        "level2": "Carbohydrate metabolism",
+        "level3": "Pentose phosphate pathway"
+    },
+    "map00040": {
+        "level1": "Metabolism",
+        "level2": "Carbohydrate metabolism",
+        "level3": "Pentose and glucuronate interconversions"
+    },
+    "map00051": {
+        "level1": "Metabolism",
+        "level2": "Carbohydrate metabolism",
+        "level3": "Fructose and mannose metabolism"
+    },
+    "map00052": {
+        "level1": "Metabolism",
+        "level2": "Carbohydrate metabolism",
+        "level3": "Galactose metabolism"
+    },
+    "map00053": {
+        "level1": "Metabolism",
+        "level2": "Carbohydrate metabolism",
+        "level3": "Ascorbate and aldarate metabolism"
+    },
+    "map00500": {
+        "level1": "Metabolism",
+        "level2": "Carbohydrate metabolism",
+        "level3": "Starch and sucrose metabolism"
+    },
+    "map00520": {
+        "level1": "Metabolism",
+        "level2": "Carbohydrate metabolism",
+        "level3": "Amino sugar and nucleotide sugar metabolism"
+    },
+    "map00620": {
+        "level1": "Metabolism",
+        "level2": "Carbohydrate metabolism",
+        "level3": "Pyruvate metabolism"
+    },
+    "map00630": {
+        "level1": "Metabolism",
+        "level2": "Carbohydrate metabolism",
+        "level3": "Glyoxylate and dicarboxylate metabolism"
+    },
+    "map00640": {
+        "level1": "Metabolism",
+        "level2": "Carbohydrate metabolism",
+        "level3": "Propanoate metabolism"
+    },
+    "map00650": {
+        "level1": "Metabolism",
+        "level2": "Carbohydrate metabolism",
+        "level3": "Butanoate metabolism"
+    },
+    "map00660": {
+        "level1": "Metabolism",
+        "level2": "Carbohydrate metabolism",
+        "level3": "C5-Branched dibasic acid metabolism"
+    },
+    "map00562": {
+        "level1": "Metabolism",
+        "level2": "Carbohydrate metabolism",
+        "level3": "Inositol phosphate metabolism"
+    },
+    "map00190": {
+        "level1": "Metabolism",
+        "level2": "Energy metabolism",
+        "level3": "Oxidative phosphorylation"
+    },
+    "map00195": {
+        "level1": "Metabolism",
+        "level2": "Energy metabolism",
+        "level3": "Photosynthesis"
+    },
+    "map00196": {
+        "level1": "Metabolism",
+        "level2": "Energy metabolism",
+        "level3": "Photosynthesis - antenna proteins"
+    },
+    "map00710": {
+        "level1": "Metabolism",
+        "level2": "Energy metabolism",
+        "level3": "Carbon fixation in photosynthetic organisms"
+    },
+    "map00720": {
+        "level1": "Metabolism",
+        "level2": "Energy metabolism",
+        "level3": "Carbon fixation pathways in prokaryotes"
+    },
+    "map00680": {
+        "level1": "Metabolism",
+        "level2": "Energy metabolism",
+        "level3": "Methane metabolism"
+    },
+    "map00910": {
+        "level1": "Metabolism",
+        "level2": "Energy metabolism",
+        "level3": "Nitrogen metabolism"
+    },
+    "map00920": {
+        "level1": "Metabolism",
+        "level2": "Energy metabolism",
+        "level3": "Sulfur metabolism"
+    },
+    "map00061": {
+        "level1": "Metabolism",
+        "level2": "Lipid metabolism",
+        "level3": "Fatty acid biosynthesis"
+    },
+    "map00062": {
+        "level1": "Metabolism",
+        "level2": "Lipid metabolism",
+        "level3": "Fatty acid elongation"
+    },
+    "map00071": {
+        "level1": "Metabolism",
+        "level2": "Lipid metabolism",
+        "level3": "Fatty acid degradation"
+    },
+    "map00072": {
+        "level1": "Metabolism",
+        "level2": "Lipid metabolism",
+        "level3": "Synthesis and degradation of ketone bodies"
+    },
+    "map00073": {
+        "level1": "Metabolism",
+        "level2": "Lipid metabolism",
+        "level3": "Cutin, suberine and wax biosynthesis"
+    },
+    "map00100": {
+        "level1": "Metabolism",
+        "level2": "Lipid metabolism",
+        "level3": "Steroid biosynthesis"
+    },
+    "map00120": {
+        "level1": "Metabolism",
+        "level2": "Lipid metabolism",
+        "level3": "Primary bile acid biosynthesis"
+    },
+    "map00121": {
+        "level1": "Metabolism",
+        "level2": "Lipid metabolism",
+        "level3": "Secondary bile acid biosynthesis"
+    },
+    "map00140": {
+        "level1": "Metabolism",
+        "level2": "Lipid metabolism",
+        "level3": "Steroid hormone biosynthesis"
+    },
+    "map00561": {
+        "level1": "Metabolism",
+        "level2": "Lipid metabolism",
+        "level3": "Glycerolipid metabolism"
+    },
+    "map00564": {
+        "level1": "Metabolism",
+        "level2": "Lipid metabolism",
+        "level3": "Glycerophospholipid metabolism"
+    },
+    "map00565": {
+        "level1": "Metabolism",
+        "level2": "Lipid metabolism",
+        "level3": "Ether lipid metabolism"
+    },
+    "map00600": {
+        "level1": "Metabolism",
+        "level2": "Lipid metabolism",
+        "level3": "Sphingolipid metabolism"
+    },
+    "map00590": {
+        "level1": "Metabolism",
+        "level2": "Lipid metabolism",
+        "level3": "Arachidonic acid metabolism"
+    },
+    "map00591": {
+        "level1": "Metabolism",
+        "level2": "Lipid metabolism",
+        "level3": "Linoleic acid metabolism"
+    },
+    "map00592": {
+        "level1": "Metabolism",
+        "level2": "Lipid metabolism",
+        "level3": "alpha-Linolenic acid metabolism"
+    },
+    "map01040": {
+        "level1": "Metabolism",
+        "level2": "Lipid metabolism",
+        "level3": "Biosynthesis of unsaturated fatty acids"
+    },
+    "map00230": {
+        "level1": "Metabolism",
+        "level2": "Nucleotide metabolism",
+        "level3": "Purine metabolism"
+    },
+    "map00240": {
+        "level1": "Metabolism",
+        "level2": "Nucleotide metabolism",
+        "level3": "Pyrimidine metabolism"
+    },
+    "map00250": {
+        "level1": "Metabolism",
+        "level2": "Amino acid metabolism",
+        "level3": "Alanine, aspartate and glutamate metabolism"
+    },
+    "map00260": {
+        "level1": "Metabolism",
+        "level2": "Amino acid metabolism",
+        "level3": "Glycine, serine and threonine metabolism"
+    },
+    "map00270": {
+        "level1": "Metabolism",
+        "level2": "Amino acid metabolism",
+        "level3": "Cysteine and methionine metabolism"
+    },
+    "map00280": {
+        "level1": "Metabolism",
+        "level2": "Amino acid metabolism",
+        "level3": "Valine, leucine and isoleucine degradation"
+    },
+    "map00290": {
+        "level1": "Metabolism",
+        "level2": "Amino acid metabolism",
+        "level3": "Valine, leucine and isoleucine biosynthesis"
+    },
+    "map00300": {
+        "level1": "Metabolism",
+        "level2": "Amino acid metabolism",
+        "level3": "Lysine biosynthesis"
+    },
+    "map00310": {
+        "level1": "Metabolism",
+        "level2": "Amino acid metabolism",
+        "level3": "Lysine degradation"
+    },
+    "map00220": {
+        "level1": "Metabolism",
+        "level2": "Amino acid metabolism",
+        "level3": "Arginine biosynthesis"
+    },
+    "map00330": {
+        "level1": "Metabolism",
+        "level2": "Amino acid metabolism",
+        "level3": "Arginine and proline metabolism"
+    },
+    "map00340": {
+        "level1": "Metabolism",
+        "level2": "Amino acid metabolism",
+        "level3": "Histidine metabolism"
+    },
+    "map00350": {
+        "level1": "Metabolism",
+        "level2": "Amino acid metabolism",
+        "level3": "Tyrosine metabolism"
+    },
+    "map00360": {
+        "level1": "Metabolism",
+        "level2": "Amino acid metabolism",
+        "level3": "Phenylalanine metabolism"
+    },
+    "map00380": {
+        "level1": "Metabolism",
+        "level2": "Amino acid metabolism",
+        "level3": "Tryptophan metabolism"
+    },
+    "map00400": {
+        "level1": "Metabolism",
+        "level2": "Amino acid metabolism",
+        "level3": "Phenylalanine, tyrosine and tryptophan biosynthesis"
+    },
+    "map00410": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of other amino acids",
+        "level3": "beta-Alanine metabolism"
+    },
+    "map00430": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of other amino acids",
+        "level3": "Taurine and hypotaurine metabolism"
+    },
+    "map00440": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of other amino acids",
+        "level3": "Phosphonate and phosphinate metabolism"
+    },
+    "map00450": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of other amino acids",
+        "level3": "Selenocompound metabolism"
+    },
+    "map00460": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of other amino acids",
+        "level3": "Cyanoamino acid metabolism"
+    },
+    "map00471": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of other amino acids",
+        "level3": "D-Glutamine and D-glutamate metabolism"
+    },
+    "map00472": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of other amino acids",
+        "level3": "D-Arginine and D-ornithine metabolism"
+    },
+    "map00473": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of other amino acids",
+        "level3": "D-Alanine metabolism"
+    },
+    "map00480": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of other amino acids",
+        "level3": "Glutathione metabolism"
+    },
+    "map00510": {
+        "level1": "Metabolism",
+        "level2": "Glycan biosynthesis and metabolism",
+        "level3": "N-Glycan biosynthesis"
+    },
+    "map00513": {
+        "level1": "Metabolism",
+        "level2": "Glycan biosynthesis and metabolism",
+        "level3": "Various types of N-glycan biosynthesis"
+    },
+    "map00512": {
+        "level1": "Metabolism",
+        "level2": "Glycan biosynthesis and metabolism",
+        "level3": "Mucin type O-glycan biosynthesis"
+    },
+    "map00515": {
+        "level1": "Metabolism",
+        "level2": "Glycan biosynthesis and metabolism",
+        "level3": "Mannose type O-glycan biosynthesis"
+    },
+    "map00514": {
+        "level1": "Metabolism",
+        "level2": "Glycan biosynthesis and metabolism",
+        "level3": "Other types of O-glycan biosynthesis"
+    },
+    "map00532": {
+        "level1": "Metabolism",
+        "level2": "Glycan biosynthesis and metabolism",
+        "level3": "Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate"
+    },
+    "map00534": {
+        "level1": "Metabolism",
+        "level2": "Glycan biosynthesis and metabolism",
+        "level3": "Glycosaminoglycan biosynthesis - heparan sulfate / heparin"
+    },
+    "map00533": {
+        "level1": "Metabolism",
+        "level2": "Glycan biosynthesis and metabolism",
+        "level3": "Glycosaminoglycan biosynthesis - keratan sulfate"
+    },
+    "map00531": {
+        "level1": "Metabolism",
+        "level2": "Glycan biosynthesis and metabolism",
+        "level3": "Glycosaminoglycan degradation"
+    },
+    "map00563": {
+        "level1": "Metabolism",
+        "level2": "Glycan biosynthesis and metabolism",
+        "level3": "Glycosylphosphatidylinositol (GPI)-anchor biosynthesis"
+    },
+    "map00601": {
+        "level1": "Metabolism",
+        "level2": "Glycan biosynthesis and metabolism",
+        "level3": "Glycosphingolipid biosynthesis - lacto and neolacto series"
+    },
+    "map00603": {
+        "level1": "Metabolism",
+        "level2": "Glycan biosynthesis and metabolism",
+        "level3": "Glycosphingolipid biosynthesis - globo and isoglobo series"
+    },
+    "map00604": {
+        "level1": "Metabolism",
+        "level2": "Glycan biosynthesis and metabolism",
+        "level3": "Glycosphingolipid biosynthesis - ganglio series"
+    },
+    "map00540": {
+        "level1": "Metabolism",
+        "level2": "Glycan biosynthesis and metabolism",
+        "level3": "Lipopolysaccharide biosynthesis"
+    },
+    "map00542": {
+        "level1": "Metabolism",
+        "level2": "Glycan biosynthesis and metabolism",
+        "level3": "O-Antigen repeat unit biosynthesis"
+    },
+    "map00541": {
+        "level1": "Metabolism",
+        "level2": "Glycan biosynthesis and metabolism",
+        "level3": "O-Antigen nucleotide sugar biosynthesis"
+    },
+    "map00550": {
+        "level1": "Metabolism",
+        "level2": "Glycan biosynthesis and metabolism",
+        "level3": "Peptidoglycan biosynthesis"
+    },
+    "map00511": {
+        "level1": "Metabolism",
+        "level2": "Glycan biosynthesis and metabolism",
+        "level3": "Other glycan degradation"
+    },
+    "map00571": {
+        "level1": "Metabolism",
+        "level2": "Glycan biosynthesis and metabolism",
+        "level3": "Lipoarabinomannan (LAM) biosynthesis"
+    },
+    "map00572": {
+        "level1": "Metabolism",
+        "level2": "Glycan biosynthesis and metabolism",
+        "level3": "Arabinogalactan biosynthesis - Mycobacterium"
+    },
+    "map00730": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of cofactors and vitamins",
+        "level3": "Thiamine metabolism"
+    },
+    "map00740": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of cofactors and vitamins",
+        "level3": "Riboflavin metabolism"
+    },
+    "map00750": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of cofactors and vitamins",
+        "level3": "Vitamin B6 metabolism"
+    },
+    "map00760": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of cofactors and vitamins",
+        "level3": "Nicotinate and nicotinamide metabolism"
+    },
+    "map00770": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of cofactors and vitamins",
+        "level3": "Pantothenate and CoA biosynthesis"
+    },
+    "map00780": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of cofactors and vitamins",
+        "level3": "Biotin metabolism"
+    },
+    "map00785": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of cofactors and vitamins",
+        "level3": "Lipoic acid metabolism"
+    },
+    "map00790": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of cofactors and vitamins",
+        "level3": "Folate biosynthesis"
+    },
+    "map00670": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of cofactors and vitamins",
+        "level3": "One carbon pool by folate"
+    },
+    "map00830": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of cofactors and vitamins",
+        "level3": "Retinol metabolism"
+    },
+    "map00860": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of cofactors and vitamins",
+        "level3": "Porphyrin and chlorophyll metabolism"
+    },
+    "map00130": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of cofactors and vitamins",
+        "level3": "Ubiquinone and other terpenoid-quinone biosynthesis"
+    },
+    "map00900": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Terpenoid backbone biosynthesis"
+    },
+    "map00902": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Monoterpenoid biosynthesis"
+    },
+    "map00909": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Sesquiterpenoid and triterpenoid biosynthesis"
+    },
+    "map00904": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Diterpenoid biosynthesis"
+    },
+    "map00906": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Carotenoid biosynthesis"
+    },
+    "map00905": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Brassinosteroid biosynthesis"
+    },
+    "map00981": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Insect hormone biosynthesis"
+    },
+    "map00908": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Zeatin biosynthesis"
+    },
+    "map00903": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Limonene and pinene degradation"
+    },
+    "map00281": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Geraniol degradation"
+    },
+    "map01052": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Type I polyketide structures"
+    },
+    "map00522": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Biosynthesis of 12-, 14- and 16-membered macrolides"
+    },
+    "map01051": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Biosynthesis of ansamycins"
+    },
+    "map01059": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Biosynthesis of enediyne antibiotics"
+    },
+    "map01056": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Biosynthesis of type II polyketide backbone"
+    },
+    "map01057": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Biosynthesis of type II polyketide products"
+    },
+    "map00253": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Tetracycline biosynthesis"
+    },
+    "map00523": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Polyketide sugar unit biosynthesis"
+    },
+    "map01054": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Nonribosomal peptide structures"
+    },
+    "map01053": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Biosynthesis of siderophore group nonribosomal peptides"
+    },
+    "map01055": {
+        "level1": "Metabolism",
+        "level2": "Metabolism of terpenoids and polyketides",
+        "level3": "Biosynthesis of vancomycin group antibiotics"
+    },
+    "map00940": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Phenylpropanoid biosynthesis"
+    },
+    "map00945": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Stilbenoid, diarylheptanoid and gingerol biosynthesis"
+    },
+    "map00941": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Flavonoid biosynthesis"
+    },
+    "map00944": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Flavone and flavonol biosynthesis"
+    },
+    "map00942": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Anthocyanin biosynthesis"
+    },
+    "map00943": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Isoflavonoid biosynthesis"
+    },
+    "map00901": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Indole alkaloid biosynthesis"
+    },
+    "map00403": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Indole diterpene alkaloid biosynthesis"
+    },
+    "map00950": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Isoquinoline alkaloid biosynthesis"
+    },
+    "map00960": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Tropane, piperidine and pyridine alkaloid biosynthesis"
+    },
+    "map01058": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Acridone alkaloid biosynthesis"
+    },
+    "map00232": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Caffeine metabolism"
+    },
+    "map00965": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Betalain biosynthesis"
+    },
+    "map00966": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Glucosinolate biosynthesis"
+    },
+    "map00402": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Benzoxazinoid biosynthesis"
+    },
+    "map00311": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Penicillin and cephalosporin biosynthesis"
+    },
+    "map00332": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Carbapenem biosynthesis"
+    },
+    "map00261": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Monobactam biosynthesis"
+    },
+    "map00331": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Clavulanic acid biosynthesis"
+    },
+    "map00521": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Streptomycin biosynthesis"
+    },
+    "map00524": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Neomycin, kanamycin and gentamicin biosynthesis"
+    },
+    "map00525": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Acarbose and validamycin biosynthesis"
+    },
+    "map00401": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Novobiocin biosynthesis"
+    },
+    "map00404": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Staurosporine biosynthesis"
+    },
+    "map00405": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Phenazine biosynthesis"
+    },
+    "map00333": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Prodigiosin biosynthesis"
+    },
+    "map00254": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Aflatoxin biosynthesis"
+    },
+    "map00999": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Biosynthesis of various secondary metabolites - part 1"
+    },
+    "map00998": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Biosynthesis of various secondary metabolites - part 2"
+    },
+    "map00997": {
+        "level1": "Metabolism",
+        "level2": "Biosynthesis of other secondary metabolites",
+        "level3": "Biosynthesis of various secondary metabolites - part 3"
+    },
+    "map00362": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Benzoate degradation"
+    },
+    "map00627": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Aminobenzoate degradation"
+    },
+    "map00364": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Fluorobenzoate degradation"
+    },
+    "map00625": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Chloroalkane and chloroalkene degradation"
+    },
+    "map00361": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Chlorocyclohexane and chlorobenzene degradation"
+    },
+    "map00623": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Toluene degradation"
+    },
+    "map00622": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Xylene degradation"
+    },
+    "map00633": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Nitrotoluene degradation"
+    },
+    "map00642": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Ethylbenzene degradation"
+    },
+    "map00643": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Styrene degradation"
+    },
+    "map00791": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Atrazine degradation"
+    },
+    "map00930": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Caprolactam degradation"
+    },
+    "map00363": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Bisphenol degradation"
+    },
+    "map00621": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Dioxin degradation"
+    },
+    "map00626": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Naphthalene degradation"
+    },
+    "map00624": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Polycyclic aromatic hydrocarbon degradation"
+    },
+    "map00365": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Furfural degradation"
+    },
+    "map00984": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Steroid degradation"
+    },
+    "map00980": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Metabolism of xenobiotics by cytochrome P450"
+    },
+    "map00982": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Drug metabolism - cytochrome P450"
+    },
+    "map00983": {
+        "level1": "Metabolism",
+        "level2": "Xenobiotics biodegradation and metabolism",
+        "level3": "Drug metabolism - other enzymes"
+    },
+    "map01010": {
+        "level1": "Metabolism",
+        "level2": "Chemical structure transformation maps",
+        "level3": "Overview of biosynthetic pathways"
+    },
+    "map01060": {
+        "level1": "Metabolism",
+        "level2": "Chemical structure transformation maps",
+        "level3": "Biosynthesis of plant secondary metabolites"
+    },
+    "map01061": {
+        "level1": "Metabolism",
+        "level2": "Chemical structure transformation maps",
+        "level3": "Biosynthesis of phenylpropanoids"
+    },
+    "map01062": {
+        "level1": "Metabolism",
+        "level2": "Chemical structure transformation maps",
+        "level3": "Biosynthesis of terpenoids and steroids"
+    },
+    "map01063": {
+        "level1": "Metabolism",
+        "level2": "Chemical structure transformation maps",
+        "level3": "Biosynthesis of alkaloids derived from shikimate pathway"
+    },
+    "map01064": {
+        "level1": "Metabolism",
+        "level2": "Chemical structure transformation maps",
+        "level3": "Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid"
+    },
+    "map01065": {
+        "level1": "Metabolism",
+        "level2": "Chemical structure transformation maps",
+        "level3": "Biosynthesis of alkaloids derived from histidine and purine"
+    },
+    "map01066": {
+        "level1": "Metabolism",
+        "level2": "Chemical structure transformation maps",
+        "level3": "Biosynthesis of alkaloids derived from terpenoid and polyketide"
+    },
+    "map01070": {
+        "level1": "Metabolism",
+        "level2": "Chemical structure transformation maps",
+        "level3": "Biosynthesis of plant hormones"
+    },
+    "map03020": {
+        "level1": "Genetic Information Processing",
+        "level2": "Transcription",
+        "level3": "RNA polymerase"
+    },
+    "map03022": {
+        "level1": "Genetic Information Processing",
+        "level2": "Transcription",
+        "level3": "Basal transcription factors"
+    },
+    "map03040": {
+        "level1": "Genetic Information Processing",
+        "level2": "Transcription",
+        "level3": "Spliceosome"
+    },
+    "map03010": {
+        "level1": "Genetic Information Processing",
+        "level2": "Translation",
+        "level3": "Ribosome"
+    },
+    "map00970": {
+        "level1": "Genetic Information Processing",
+        "level2": "Translation",
+        "level3": "Aminoacyl-tRNA biosynthesis"
+    },
+    "map03013": {
+        "level1": "Genetic Information Processing",
+        "level2": "Translation",
+        "level3": "Nucleocytoplasmic transport"
+    },
+    "map03015": {
+        "level1": "Genetic Information Processing",
+        "level2": "Translation",
+        "level3": "mRNA surveillance pathway"
+    },
+    "map03008": {
+        "level1": "Genetic Information Processing",
+        "level2": "Translation",
+        "level3": "Ribosome biogenesis in eukaryotes"
+    },
+    "map03060": {
+        "level1": "Genetic Information Processing",
+        "level2": "Folding, sorting and degradation",
+        "level3": "Protein export"
+    },
+    "map04141": {
+        "level1": "Genetic Information Processing",
+        "level2": "Folding, sorting and degradation",
+        "level3": "Protein processing in endoplasmic reticulum"
+    },
+    "map04130": {
+        "level1": "Genetic Information Processing",
+        "level2": "Folding, sorting and degradation",
+        "level3": "SNARE interactions in vesicular transport"
+    },
+    "map04120": {
+        "level1": "Genetic Information Processing",
+        "level2": "Folding, sorting and degradation",
+        "level3": "Ubiquitin mediated proteolysis"
+    },
+    "map04122": {
+        "level1": "Genetic Information Processing",
+        "level2": "Folding, sorting and degradation",
+        "level3": "Sulfur relay system"
+    },
+    "map03050": {
+        "level1": "Genetic Information Processing",
+        "level2": "Folding, sorting and degradation",
+        "level3": "Proteasome"
+    },
+    "map03018": {
+        "level1": "Genetic Information Processing",
+        "level2": "Folding, sorting and degradation",
+        "level3": "RNA degradation"
+    },
+    "map03030": {
+        "level1": "Genetic Information Processing",
+        "level2": "Replication and repair",
+        "level3": "DNA replication"
+    },
+    "map03410": {
+        "level1": "Genetic Information Processing",
+        "level2": "Replication and repair",
+        "level3": "Base excision repair"
+    },
+    "map03420": {
+        "level1": "Genetic Information Processing",
+        "level2": "Replication and repair",
+        "level3": "Nucleotide excision repair"
+    },
+    "map03430": {
+        "level1": "Genetic Information Processing",
+        "level2": "Replication and repair",
+        "level3": "Mismatch repair"
+    },
+    "map03440": {
+        "level1": "Genetic Information Processing",
+        "level2": "Replication and repair",
+        "level3": "Homologous recombination"
+    },
+    "map03450": {
+        "level1": "Genetic Information Processing",
+        "level2": "Replication and repair",
+        "level3": "Non-homologous end-joining"
+    },
+    "map03460": {
+        "level1": "Genetic Information Processing",
+        "level2": "Replication and repair",
+        "level3": "Fanconi anemia pathway"
+    },
+    "map03230": {
+        "level1": "Genetic Information Processing",
+        "level2": "Information processing in viruses",
+        "level3": "Viral genome structure"
+    },
+    "map02010": {
+        "level1": "Environmental Information Processing",
+        "level2": "Membrane transport",
+        "level3": "ABC transporters"
+    },
+    "map02060": {
+        "level1": "Environmental Information Processing",
+        "level2": "Membrane transport",
+        "level3": "Phosphotransferase system (PTS)"
+    },
+    "map03070": {
+        "level1": "Environmental Information Processing",
+        "level2": "Membrane transport",
+        "level3": "Bacterial secretion system"
+    },
+    "map02020": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "Two-component system"
+    },
+    "map04010": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "MAPK signaling pathway"
+    },
+    "map04013": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "MAPK signaling pathway - fly"
+    },
+    "map04016": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "MAPK signaling pathway - plant"
+    },
+    "map04011": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "MAPK signaling pathway - yeast"
+    },
+    "map04012": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "ErbB signaling pathway"
+    },
+    "map04014": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "Ras signaling pathway"
+    },
+    "map04015": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "Rap1 signaling pathway"
+    },
+    "map04310": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "Wnt signaling pathway"
+    },
+    "map04330": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "Notch signaling pathway"
+    },
+    "map04340": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "Hedgehog signaling pathway"
+    },
+    "map04341": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "Hedgehog signaling pathway - fly"
+    },
+    "map04350": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "TGF-beta signaling pathway"
+    },
+    "map04390": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "Hippo signaling pathway"
+    },
+    "map04391": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "Hippo signaling pathway - fly"
+    },
+    "map04392": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "Hippo signaling pathway - multiple species"
+    },
+    "map04370": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "VEGF signaling pathway"
+    },
+    "map04371": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "Apelin signaling pathway"
+    },
+    "map04630": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "JAK-STAT signaling pathway"
+    },
+    "map04064": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "NF-kappa B signaling pathway"
+    },
+    "map04668": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "TNF signaling pathway"
+    },
+    "map04066": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "HIF-1 signaling pathway"
+    },
+    "map04068": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "FoxO signaling pathway"
+    },
+    "map04020": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "Calcium signaling pathway"
+    },
+    "map04070": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "Phosphatidylinositol signaling system"
+    },
+    "map04072": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "Phospholipase D signaling pathway"
+    },
+    "map04071": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "Sphingolipid signaling pathway"
+    },
+    "map04024": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "cAMP signaling pathway"
+    },
+    "map04022": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "cGMP-PKG signaling pathway"
+    },
+    "map04151": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "PI3K-Akt signaling pathway"
+    },
+    "map04152": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "AMPK signaling pathway"
+    },
+    "map04150": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "mTOR signaling pathway"
+    },
+    "map04075": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signal transduction",
+        "level3": "Plant hormone signal transduction"
+    },
+    "map04080": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signaling molecules and interaction",
+        "level3": "Neuroactive ligand-receptor interaction"
+    },
+    "map04060": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signaling molecules and interaction",
+        "level3": "Cytokine-cytokine receptor interaction"
+    },
+    "map04061": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signaling molecules and interaction",
+        "level3": "Viral protein interaction with cytokine and cytokine receptor"
+    },
+    "map04512": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signaling molecules and interaction",
+        "level3": "ECM-receptor interaction"
+    },
+    "map04514": {
+        "level1": "Environmental Information Processing",
+        "level2": "Signaling molecules and interaction",
+        "level3": "Cell adhesion molecules"
+    },
+    "map04144": {
+        "level1": "Cellular Processes",
+        "level2": "Transport and catabolism",
+        "level3": "Endocytosis"
+    },
+    "map04145": {
+        "level1": "Cellular Processes",
+        "level2": "Transport and catabolism",
+        "level3": "Phagosome"
+    },
+    "map04142": {
+        "level1": "Cellular Processes",
+        "level2": "Transport and catabolism",
+        "level3": "Lysosome"
+    },
+    "map04146": {
+        "level1": "Cellular Processes",
+        "level2": "Transport and catabolism",
+        "level3": "Peroxisome"
+    },
+    "map04140": {
+        "level1": "Cellular Processes",
+        "level2": "Transport and catabolism",
+        "level3": "Autophagy - animal"
+    },
+    "map04138": {
+        "level1": "Cellular Processes",
+        "level2": "Transport and catabolism",
+        "level3": "Autophagy - yeast"
+    },
+    "map04136": {
+        "level1": "Cellular Processes",
+        "level2": "Transport and catabolism",
+        "level3": "Autophagy - other"
+    },
+    "map04137": {
+        "level1": "Cellular Processes",
+        "level2": "Transport and catabolism",
+        "level3": "Mitophagy - animal"
+    },
+    "map04139": {
+        "level1": "Cellular Processes",
+        "level2": "Transport and catabolism",
+        "level3": "Mitophagy - yeast"
+    },
+    "map04110": {
+        "level1": "Cellular Processes",
+        "level2": "Cell growth and death",
+        "level3": "Cell cycle"
+    },
+    "map04111": {
+        "level1": "Cellular Processes",
+        "level2": "Cell growth and death",
+        "level3": "Cell cycle - yeast"
+    },
+    "map04112": {
+        "level1": "Cellular Processes",
+        "level2": "Cell growth and death",
+        "level3": "Cell cycle - Caulobacter"
+    },
+    "map04113": {
+        "level1": "Cellular Processes",
+        "level2": "Cell growth and death",
+        "level3": "Meiosis - yeast"
+    },
+    "map04114": {
+        "level1": "Cellular Processes",
+        "level2": "Cell growth and death",
+        "level3": "Oocyte meiosis"
+    },
+    "map04210": {
+        "level1": "Cellular Processes",
+        "level2": "Cell growth and death",
+        "level3": "Apoptosis"
+    },
+    "map04214": {
+        "level1": "Cellular Processes",
+        "level2": "Cell growth and death",
+        "level3": "Apoptosis - fly"
+    },
+    "map04215": {
+        "level1": "Cellular Processes",
+        "level2": "Cell growth and death",
+        "level3": "Apoptosis - multiple species"
+    },
+    "map04216": {
+        "level1": "Cellular Processes",
+        "level2": "Cell growth and death",
+        "level3": "Ferroptosis"
+    },
+    "map04217": {
+        "level1": "Cellular Processes",
+        "level2": "Cell growth and death",
+        "level3": "Necroptosis"
+    },
+    "map04115": {
+        "level1": "Cellular Processes",
+        "level2": "Cell growth and death",
+        "level3": "p53 signaling pathway"
+    },
+    "map04218": {
+        "level1": "Cellular Processes",
+        "level2": "Cell growth and death",
+        "level3": "Cellular senescence"
+    },
+    "map04510": {
+        "level1": "Cellular Processes",
+        "level2": "Cellular community - eukaryotes",
+        "level3": "Focal adhesion"
+    },
+    "map04520": {
+        "level1": "Cellular Processes",
+        "level2": "Cellular community - eukaryotes",
+        "level3": "Adherens junction"
+    },
+    "map04530": {
+        "level1": "Cellular Processes",
+        "level2": "Cellular community - eukaryotes",
+        "level3": "Tight junction"
+    },
+    "map04540": {
+        "level1": "Cellular Processes",
+        "level2": "Cellular community - eukaryotes",
+        "level3": "Gap junction"
+    },
+    "map04550": {
+        "level1": "Cellular Processes",
+        "level2": "Cellular community - eukaryotes",
+        "level3": "Signaling pathways regulating pluripotency of stem cells"
+    },
+    "map02024": {
+        "level1": "Cellular Processes",
+        "level2": "Cellular community - prokaryotes",
+        "level3": "Quorum sensing"
+    },
+    "map05111": {
+        "level1": "Cellular Processes",
+        "level2": "Cellular community - prokaryotes",
+        "level3": "Biofilm formation - Vibrio cholerae"
+    },
+    "map02025": {
+        "level1": "Cellular Processes",
+        "level2": "Cellular community - prokaryotes",
+        "level3": "Biofilm formation - Pseudomonas aeruginosa"
+    },
+    "map02026": {
+        "level1": "Cellular Processes",
+        "level2": "Cellular community - prokaryotes",
+        "level3": "Biofilm formation - Escherichia coli"
+    },
+    "map02030": {
+        "level1": "Cellular Processes",
+        "level2": "Cell motility",
+        "level3": "Bacterial chemotaxis"
+    },
+    "map02040": {
+        "level1": "Cellular Processes",
+        "level2": "Cell motility",
+        "level3": "Flagellar assembly"
+    },
+    "map04810": {
+        "level1": "Cellular Processes",
+        "level2": "Cell motility",
+        "level3": "Regulation of actin cytoskeleton"
+    },
+    "map04640": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "Hematopoietic cell lineage"
+    },
+    "map04610": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "Complement and coagulation cascades"
+    },
+    "map04611": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "Platelet activation"
+    },
+    "map04613": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "Neutrophil extracellular trap formation"
+    },
+    "map04620": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "Toll-like receptor signaling pathway"
+    },
+    "map04624": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "Toll and Imd signaling pathway"
+    },
+    "map04621": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "NOD-like receptor signaling pathway"
+    },
+    "map04622": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "RIG-I-like receptor signaling pathway"
+    },
+    "map04623": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "Cytosolic DNA-sensing pathway"
+    },
+    "map04625": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "C-type lectin receptor signaling pathway"
+    },
+    "map04650": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "Natural killer cell mediated cytotoxicity"
+    },
+    "map04612": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "Antigen processing and presentation"
+    },
+    "map04660": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "T cell receptor signaling pathway"
+    },
+    "map04658": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "Th1 and Th2 cell differentiation"
+    },
+    "map04659": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "Th17 cell differentiation"
+    },
+    "map04657": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "IL-17 signaling pathway"
+    },
+    "map04662": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "B cell receptor signaling pathway"
+    },
+    "map04664": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "Fc epsilon RI signaling pathway"
+    },
+    "map04666": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "Fc gamma R-mediated phagocytosis"
+    },
+    "map04670": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "Leukocyte transendothelial migration"
+    },
+    "map04672": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "Intestinal immune network for IgA production"
+    },
+    "map04062": {
+        "level1": "Organismal Systems",
+        "level2": "Immune system",
+        "level3": "Chemokine signaling pathway"
+    },
+    "map04911": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "Insulin secretion"
+    },
+    "map04910": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "Insulin signaling pathway"
+    },
+    "map04922": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "Glucagon signaling pathway"
+    },
+    "map04923": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "Regulation of lipolysis in adipocytes"
+    },
+    "map04920": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "Adipocytokine signaling pathway"
+    },
+    "map03320": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "PPAR signaling pathway"
+    },
+    "map04929": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "GnRH secretion"
+    },
+    "map04912": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "GnRH signaling pathway"
+    },
+    "map04913": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "Ovarian steroidogenesis"
+    },
+    "map04915": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "Estrogen signaling pathway"
+    },
+    "map04914": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "Progesterone-mediated oocyte maturation"
+    },
+    "map04917": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "Prolactin signaling pathway"
+    },
+    "map04921": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "Oxytocin signaling pathway"
+    },
+    "map04926": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "Relaxin signaling pathway"
+    },
+    "map04935": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "Growth hormone synthesis, secretion and action"
+    },
+    "map04918": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "Thyroid hormone synthesis"
+    },
+    "map04919": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "Thyroid hormone signaling pathway"
+    },
+    "map04928": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "Parathyroid hormone synthesis, secretion and action"
+    },
+    "map04916": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "Melanogenesis"
+    },
+    "map04924": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "Renin secretion"
+    },
+    "map04614": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "Renin-angiotensin system"
+    },
+    "map04925": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "Aldosterone synthesis and secretion"
+    },
+    "map04927": {
+        "level1": "Organismal Systems",
+        "level2": "Endocrine system",
+        "level3": "Cortisol synthesis and secretion"
+    },
+    "map04260": {
+        "level1": "Organismal Systems",
+        "level2": "Circulatory system",
+        "level3": "Cardiac muscle contraction"
+    },
+    "map04261": {
+        "level1": "Organismal Systems",
+        "level2": "Circulatory system",
+        "level3": "Adrenergic signaling in cardiomyocytes"
+    },
+    "map04270": {
+        "level1": "Organismal Systems",
+        "level2": "Circulatory system",
+        "level3": "Vascular smooth muscle contraction"
+    },
+    "map04970": {
+        "level1": "Organismal Systems",
+        "level2": "Digestive system",
+        "level3": "Salivary secretion"
+    },
+    "map04971": {
+        "level1": "Organismal Systems",
+        "level2": "Digestive system",
+        "level3": "Gastric acid secretion"
+    },
+    "map04972": {
+        "level1": "Organismal Systems",
+        "level2": "Digestive system",
+        "level3": "Pancreatic secretion"
+    },
+    "map04976": {
+        "level1": "Organismal Systems",
+        "level2": "Digestive system",
+        "level3": "Bile secretion"
+    },
+    "map04973": {
+        "level1": "Organismal Systems",
+        "level2": "Digestive system",
+        "level3": "Carbohydrate digestion and absorption"
+    },
+    "map04974": {
+        "level1": "Organismal Systems",
+        "level2": "Digestive system",
+        "level3": "Protein digestion and absorption"
+    },
+    "map04975": {
+        "level1": "Organismal Systems",
+        "level2": "Digestive system",
+        "level3": "Fat digestion and absorption"
+    },
+    "map04979": {
+        "level1": "Organismal Systems",
+        "level2": "Digestive system",
+        "level3": "Cholesterol metabolism"
+    },
+    "map04977": {
+        "level1": "Organismal Systems",
+        "level2": "Digestive system",
+        "level3": "Vitamin digestion and absorption"
+    },
+    "map04978": {
+        "level1": "Organismal Systems",
+        "level2": "Digestive system",
+        "level3": "Mineral absorption"
+    },
+    "map04962": {
+        "level1": "Organismal Systems",
+        "level2": "Excretory system",
+        "level3": "Vasopressin-regulated water reabsorption"
+    },
+    "map04960": {
+        "level1": "Organismal Systems",
+        "level2": "Excretory system",
+        "level3": "Aldosterone-regulated sodium reabsorption"
+    },
+    "map04961": {
+        "level1": "Organismal Systems",
+        "level2": "Excretory system",
+        "level3": "Endocrine and other factor-regulated calcium reabsorption"
+    },
+    "map04964": {
+        "level1": "Organismal Systems",
+        "level2": "Excretory system",
+        "level3": "Proximal tubule bicarbonate reclamation"
+    },
+    "map04966": {
+        "level1": "Organismal Systems",
+        "level2": "Excretory system",
+        "level3": "Collecting duct acid secretion"
+    },
+    "map04724": {
+        "level1": "Organismal Systems",
+        "level2": "Nervous system",
+        "level3": "Glutamatergic synapse"
+    },
+    "map04727": {
+        "level1": "Organismal Systems",
+        "level2": "Nervous system",
+        "level3": "GABAergic synapse"
+    },
+    "map04725": {
+        "level1": "Organismal Systems",
+        "level2": "Nervous system",
+        "level3": "Cholinergic synapse"
+    },
+    "map04728": {
+        "level1": "Organismal Systems",
+        "level2": "Nervous system",
+        "level3": "Dopaminergic synapse"
+    },
+    "map04726": {
+        "level1": "Organismal Systems",
+        "level2": "Nervous system",
+        "level3": "Serotonergic synapse"
+    },
+    "map04720": {
+        "level1": "Organismal Systems",
+        "level2": "Nervous system",
+        "level3": "Long-term potentiation"
+    },
+    "map04730": {
+        "level1": "Organismal Systems",
+        "level2": "Nervous system",
+        "level3": "Long-term depression"
+    },
+    "map04723": {
+        "level1": "Organismal Systems",
+        "level2": "Nervous system",
+        "level3": "Retrograde endocannabinoid signaling"
+    },
+    "map04721": {
+        "level1": "Organismal Systems",
+        "level2": "Nervous system",
+        "level3": "Synaptic vesicle cycle"
+    },
+    "map04722": {
+        "level1": "Organismal Systems",
+        "level2": "Nervous system",
+        "level3": "Neurotrophin signaling pathway"
+    },
+    "map04744": {
+        "level1": "Organismal Systems",
+        "level2": "Sensory system",
+        "level3": "Phototransduction"
+    },
+    "map04745": {
+        "level1": "Organismal Systems",
+        "level2": "Sensory system",
+        "level3": "Phototransduction - fly"
+    },
+    "map04740": {
+        "level1": "Organismal Systems",
+        "level2": "Sensory system",
+        "level3": "Olfactory transduction"
+    },
+    "map04742": {
+        "level1": "Organismal Systems",
+        "level2": "Sensory system",
+        "level3": "Taste transduction"
+    },
+    "map04750": {
+        "level1": "Organismal Systems",
+        "level2": "Sensory system",
+        "level3": "Inflammatory mediator regulation of TRP channels"
+    },
+    "map04320": {
+        "level1": "Organismal Systems",
+        "level2": "Development and regeneration",
+        "level3": "Dorso-ventral axis formation"
+    },
+    "map04360": {
+        "level1": "Organismal Systems",
+        "level2": "Development and regeneration",
+        "level3": "Axon guidance"
+    },
+    "map04361": {
+        "level1": "Organismal Systems",
+        "level2": "Development and regeneration",
+        "level3": "Axon regeneration"
+    },
+    "map04380": {
+        "level1": "Organismal Systems",
+        "level2": "Development and regeneration",
+        "level3": "Osteoclast differentiation"
+    },
+    "map04211": {
+        "level1": "Organismal Systems",
+        "level2": "Aging",
+        "level3": "Longevity regulating pathway"
+    },
+    "map04212": {
+        "level1": "Organismal Systems",
+        "level2": "Aging",
+        "level3": "Longevity regulating pathway - worm"
+    },
+    "map04213": {
+        "level1": "Organismal Systems",
+        "level2": "Aging",
+        "level3": "Longevity regulating pathway - multiple species"
+    },
+    "map04710": {
+        "level1": "Organismal Systems",
+        "level2": "Environmental adaptation",
+        "level3": "Circadian rhythm"
+    },
+    "map04713": {
+        "level1": "Organismal Systems",
+        "level2": "Environmental adaptation",
+        "level3": "Circadian entrainment"
+    },
+    "map04711": {
+        "level1": "Organismal Systems",
+        "level2": "Environmental adaptation",
+        "level3": "Circadian rhythm - fly"
+    },
+    "map04712": {
+        "level1": "Organismal Systems",
+        "level2": "Environmental adaptation",
+        "level3": "Circadian rhythm - plant"
+    },
+    "map04714": {
+        "level1": "Organismal Systems",
+        "level2": "Environmental adaptation",
+        "level3": "Thermogenesis"
+    },
+    "map04626": {
+        "level1": "Organismal Systems",
+        "level2": "Environmental adaptation",
+        "level3": "Plant-pathogen interaction"
+    },
+    "map05200": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: overview",
+        "level3": "Pathways in cancer"
+    },
+    "map05202": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: overview",
+        "level3": "Transcriptional misregulation in cancer"
+    },
+    "map05206": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: overview",
+        "level3": "MicroRNAs in cancer"
+    },
+    "map05205": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: overview",
+        "level3": "Proteoglycans in cancer"
+    },
+    "map05204": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: overview",
+        "level3": "Chemical carcinogenesis - DNA adducts"
+    },
+    "map05207": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: overview",
+        "level3": "Chemical carcinogenesis - receptor activation"
+    },
+    "map05208": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: overview",
+        "level3": "Chemical carcinogenesis - reactive oxygen species"
+    },
+    "map05203": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: overview",
+        "level3": "Viral carcinogenesis"
+    },
+    "map05230": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: overview",
+        "level3": "Central carbon metabolism in cancer"
+    },
+    "map05231": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: overview",
+        "level3": "Choline metabolism in cancer"
+    },
+    "map05235": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: overview",
+        "level3": "PD-L1 expression and PD-1 checkpoint pathway in cancer"
+    },
+    "map05210": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: specific types",
+        "level3": "Colorectal cancer"
+    },
+    "map05212": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: specific types",
+        "level3": "Pancreatic cancer"
+    },
+    "map05225": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: specific types",
+        "level3": "Hepatocellular carcinoma"
+    },
+    "map05226": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: specific types",
+        "level3": "Gastric cancer"
+    },
+    "map05214": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: specific types",
+        "level3": "Glioma"
+    },
+    "map05216": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: specific types",
+        "level3": "Thyroid cancer"
+    },
+    "map05221": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: specific types",
+        "level3": "Acute myeloid leukemia"
+    },
+    "map05220": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: specific types",
+        "level3": "Chronic myeloid leukemia"
+    },
+    "map05217": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: specific types",
+        "level3": "Basal cell carcinoma"
+    },
+    "map05218": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: specific types",
+        "level3": "Melanoma"
+    },
+    "map05211": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: specific types",
+        "level3": "Renal cell carcinoma"
+    },
+    "map05219": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: specific types",
+        "level3": "Bladder cancer"
+    },
+    "map05215": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: specific types",
+        "level3": "Prostate cancer"
+    },
+    "map05213": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: specific types",
+        "level3": "Endometrial cancer"
+    },
+    "map05224": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: specific types",
+        "level3": "Breast cancer"
+    },
+    "map05222": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: specific types",
+        "level3": "Small cell lung cancer"
+    },
+    "map05223": {
+        "level1": "Human Diseases",
+        "level2": "Cancer: specific types",
+        "level3": "Non-small cell lung cancer"
+    },
+    "map05166": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: viral",
+        "level3": "Human T-cell leukemia virus 1 infection"
+    },
+    "map05170": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: viral",
+        "level3": "Human immunodeficiency virus 1 infection"
+    },
+    "map05161": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: viral",
+        "level3": "Hepatitis B"
+    },
+    "map05160": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: viral",
+        "level3": "Hepatitis C"
+    },
+    "map05171": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: viral",
+        "level3": "Coronavirus disease - COVID-19"
+    },
+    "map05164": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: viral",
+        "level3": "Influenza A"
+    },
+    "map05162": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: viral",
+        "level3": "Measles"
+    },
+    "map05168": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: viral",
+        "level3": "Herpes simplex virus 1 infection"
+    },
+    "map05163": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: viral",
+        "level3": "Human cytomegalovirus infection"
+    },
+    "map05167": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: viral",
+        "level3": "Kaposi sarcoma-associated herpesvirus infection"
+    },
+    "map05169": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: viral",
+        "level3": "Epstein-Barr virus infection"
+    },
+    "map05165": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: viral",
+        "level3": "Human papillomavirus infection"
+    },
+    "map05110": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: bacterial",
+        "level3": "Vibrio cholerae infection"
+    },
+    "map05120": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: bacterial",
+        "level3": "Epithelial cell signaling in Helicobacter pylori infection"
+    },
+    "map05130": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: bacterial",
+        "level3": "Pathogenic Escherichia coli infection"
+    },
+    "map05132": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: bacterial",
+        "level3": "Salmonella infection"
+    },
+    "map05131": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: bacterial",
+        "level3": "Shigellosis"
+    },
+    "map05135": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: bacterial",
+        "level3": "Yersinia infection"
+    },
+    "map05133": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: bacterial",
+        "level3": "Pertussis"
+    },
+    "map05134": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: bacterial",
+        "level3": "Legionellosis"
+    },
+    "map05150": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: bacterial",
+        "level3": "Staphylococcus aureus infection"
+    },
+    "map05152": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: bacterial",
+        "level3": "Tuberculosis"
+    },
+    "map05100": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: bacterial",
+        "level3": "Bacterial invasion of epithelial cells"
+    },
+    "map05146": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: parasitic",
+        "level3": "Amoebiasis"
+    },
+    "map05144": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: parasitic",
+        "level3": "Malaria"
+    },
+    "map05145": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: parasitic",
+        "level3": "Toxoplasmosis"
+    },
+    "map05140": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: parasitic",
+        "level3": "Leishmaniasis"
+    },
+    "map05142": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: parasitic",
+        "level3": "Chagas disease"
+    },
+    "map05143": {
+        "level1": "Human Diseases",
+        "level2": "Infectious disease: parasitic",
+        "level3": "African trypanosomiasis"
+    },
+    "map05310": {
+        "level1": "Human Diseases",
+        "level2": "Immune disease",
+        "level3": "Asthma"
+    },
+    "map05322": {
+        "level1": "Human Diseases",
+        "level2": "Immune disease",
+        "level3": "Systemic lupus erythematosus"
+    },
+    "map05323": {
+        "level1": "Human Diseases",
+        "level2": "Immune disease",
+        "level3": "Rheumatoid arthritis"
+    },
+    "map05320": {
+        "level1": "Human Diseases",
+        "level2": "Immune disease",
+        "level3": "Autoimmune thyroid disease"
+    },
+    "map05321": {
+        "level1": "Human Diseases",
+        "level2": "Immune disease",
+        "level3": "Inflammatory bowel disease"
+    },
+    "map05330": {
+        "level1": "Human Diseases",
+        "level2": "Immune disease",
+        "level3": "Allograft rejection"
+    },
+    "map05332": {
+        "level1": "Human Diseases",
+        "level2": "Immune disease",
+        "level3": "Graft-versus-host disease"
+    },
+    "map05340": {
+        "level1": "Human Diseases",
+        "level2": "Immune disease",
+        "level3": "Primary immunodeficiency"
+    },
+    "map05010": {
+        "level1": "Human Diseases",
+        "level2": "Neurodegenerative disease",
+        "level3": "Alzheimer disease"
+    },
+    "map05012": {
+        "level1": "Human Diseases",
+        "level2": "Neurodegenerative disease",
+        "level3": "Parkinson disease"
+    },
+    "map05014": {
+        "level1": "Human Diseases",
+        "level2": "Neurodegenerative disease",
+        "level3": "Amyotrophic lateral sclerosis"
+    },
+    "map05016": {
+        "level1": "Human Diseases",
+        "level2": "Neurodegenerative disease",
+        "level3": "Huntington disease"
+    },
+    "map05017": {
+        "level1": "Human Diseases",
+        "level2": "Neurodegenerative disease",
+        "level3": "Spinocerebellar ataxia"
+    },
+    "map05020": {
+        "level1": "Human Diseases",
+        "level2": "Neurodegenerative disease",
+        "level3": "Prion disease"
+    },
+    "map05022": {
+        "level1": "Human Diseases",
+        "level2": "Neurodegenerative disease",
+        "level3": "Pathways of neurodegeneration - multiple diseases"
+    },
+    "map05030": {
+        "level1": "Human Diseases",
+        "level2": "Substance dependence",
+        "level3": "Cocaine addiction"
+    },
+    "map05031": {
+        "level1": "Human Diseases",
+        "level2": "Substance dependence",
+        "level3": "Amphetamine addiction"
+    },
+    "map05032": {
+        "level1": "Human Diseases",
+        "level2": "Substance dependence",
+        "level3": "Morphine addiction"
+    },
+    "map05033": {
+        "level1": "Human Diseases",
+        "level2": "Substance dependence",
+        "level3": "Nicotine addiction"
+    },
+    "map05034": {
+        "level1": "Human Diseases",
+        "level2": "Substance dependence",
+        "level3": "Alcoholism"
+    },
+    "map05417": {
+        "level1": "Human Diseases",
+        "level2": "Cardiovascular disease",
+        "level3": "Lipid and atherosclerosis"
+    },
+    "map05418": {
+        "level1": "Human Diseases",
+        "level2": "Cardiovascular disease",
+        "level3": "Fluid shear stress and atherosclerosis"
+    },
+    "map05410": {
+        "level1": "Human Diseases",
+        "level2": "Cardiovascular disease",
+        "level3": "Hypertrophic cardiomyopathy"
+    },
+    "map05412": {
+        "level1": "Human Diseases",
+        "level2": "Cardiovascular disease",
+        "level3": "Arrhythmogenic right ventricular cardiomyopathy"
+    },
+    "map05414": {
+        "level1": "Human Diseases",
+        "level2": "Cardiovascular disease",
+        "level3": "Dilated cardiomyopathy"
+    },
+    "map05415": {
+        "level1": "Human Diseases",
+        "level2": "Cardiovascular disease",
+        "level3": "Diabetic cardiomyopathy"
+    },
+    "map05416": {
+        "level1": "Human Diseases",
+        "level2": "Cardiovascular disease",
+        "level3": "Viral myocarditis"
+    },
+    "map04930": {
+        "level1": "Human Diseases",
+        "level2": "Endocrine and metabolic disease",
+        "level3": "Type II diabetes mellitus"
+    },
+    "map04940": {
+        "level1": "Human Diseases",
+        "level2": "Endocrine and metabolic disease",
+        "level3": "Type I diabetes mellitus"
+    },
+    "map04950": {
+        "level1": "Human Diseases",
+        "level2": "Endocrine and metabolic disease",
+        "level3": "Maturity onset diabetes of the young"
+    },
+    "map04932": {
+        "level1": "Human Diseases",
+        "level2": "Endocrine and metabolic disease",
+        "level3": "Non-alcoholic fatty liver disease"
+    },
+    "map04931": {
+        "level1": "Human Diseases",
+        "level2": "Endocrine and metabolic disease",
+        "level3": "Insulin resistance"
+    },
+    "map04933": {
+        "level1": "Human Diseases",
+        "level2": "Endocrine and metabolic disease",
+        "level3": "AGE-RAGE signaling pathway in diabetic complications"
+    },
+    "map04934": {
+        "level1": "Human Diseases",
+        "level2": "Endocrine and metabolic disease",
+        "level3": "Cushing syndrome"
+    },
+    "map01501": {
+        "level1": "Human Diseases",
+        "level2": "Drug resistance: antimicrobial",
+        "level3": "beta-Lactam resistance"
+    },
+    "map01502": {
+        "level1": "Human Diseases",
+        "level2": "Drug resistance: antimicrobial",
+        "level3": "Vancomycin resistance"
+    },
+    "map01503": {
+        "level1": "Human Diseases",
+        "level2": "Drug resistance: antimicrobial",
+        "level3": "Cationic antimicrobial peptide (CAMP) resistance"
+    },
+    "map01521": {
+        "level1": "Human Diseases",
+        "level2": "Drug resistance: antineoplastic",
+        "level3": "EGFR tyrosine kinase inhibitor resistance"
+    },
+    "map01524": {
+        "level1": "Human Diseases",
+        "level2": "Drug resistance: antineoplastic",
+        "level3": "Platinum drug resistance"
+    },
+    "map01523": {
+        "level1": "Human Diseases",
+        "level2": "Drug resistance: antineoplastic",
+        "level3": "Antifolate resistance"
+    },
+    "map01522": {
+        "level1": "Human Diseases",
+        "level2": "Drug resistance: antineoplastic",
+        "level3": "Endocrine resistance"
+    },
+    "map07011": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Antiinfectives",
+        "level3": "Penicillins"
+    },
+    "map07012": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Antiinfectives",
+        "level3": "Cephalosporins - parenteral agents"
+    },
+    "map07013": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Antiinfectives",
+        "level3": "Cephalosporins - oral agents"
+    },
+    "map07021": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Antiinfectives",
+        "level3": "Aminoglycosides"
+    },
+    "map07019": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Antiinfectives",
+        "level3": "Tetracyclines"
+    },
+    "map07020": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Antiinfectives",
+        "level3": "Macrolides and ketolides"
+    },
+    "map07014": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Antiinfectives",
+        "level3": "Quinolones"
+    },
+    "map07023": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Antiinfectives",
+        "level3": "Rifamycins"
+    },
+    "map07026": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Antiinfectives",
+        "level3": "Antifungal agents"
+    },
+    "map07044": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Antiinfectives",
+        "level3": "Antiviral agents"
+    },
+    "map07053": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Antiinfectives",
+        "level3": "Anti-HIV agents"
+    },
+    "map07040": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Antineoplastics",
+        "level3": "Antineoplastics - alkylating agents"
+    },
+    "map07041": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Antineoplastics",
+        "level3": "Antineoplastics - antimetabolic agents"
+    },
+    "map07042": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Antineoplastics",
+        "level3": "Antineoplastics - agents from natural products"
+    },
+    "map07043": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Antineoplastics",
+        "level3": "Antineoplastics - hormones"
+    },
+    "map07045": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Antineoplastics",
+        "level3": "Antineoplastics - protein kinase inhibitors"
+    },
+    "map07032": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Nervous system agents",
+        "level3": "Hypnotics"
+    },
+    "map07030": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Nervous system agents",
+        "level3": "Anxiolytics"
+    },
+    "map07033": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Nervous system agents",
+        "level3": "Anticonvulsants"
+    },
+    "map07015": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Nervous system agents",
+        "level3": "Local analgesics"
+    },
+    "map07039": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Nervous system agents",
+        "level3": "Opioid analgesics"
+    },
+    "map07028": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Nervous system agents",
+        "level3": "Antipsychotics"
+    },
+    "map07029": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Nervous system agents",
+        "level3": "Antipsychotics - phenothiazines"
+    },
+    "map07031": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Nervous system agents",
+        "level3": "Antipsychotics - butyrophenones"
+    },
+    "map07027": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Nervous system agents",
+        "level3": "Antidepressants"
+    },
+    "map07056": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Nervous system agents",
+        "level3": "Agents for Alzheimer-type dementia"
+    },
+    "map07057": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Nervous system agents",
+        "level3": "Antiparkinsonian agents"
+    },
+    "map07055": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Other drugs",
+        "level3": "Sulfonamide derivatives - overview"
+    },
+    "map07016": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Other drugs",
+        "level3": "Sulfonamide derivatives - sulfa drugs"
+    },
+    "map07017": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Other drugs",
+        "level3": "Sulfonamide derivatives - diuretics"
+    },
+    "map07018": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Other drugs",
+        "level3": "Sulfonamide derivatives - hypoglycemic agents"
+    },
+    "map07037": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Other drugs",
+        "level3": "Antiarrhythmic drugs"
+    },
+    "map07038": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Other drugs",
+        "level3": "Antiulcer drugs"
+    },
+    "map07046": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Other drugs",
+        "level3": "Immunosuppressive agents"
+    },
+    "map07047": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Other drugs",
+        "level3": "Osteoporosis drugs"
+    },
+    "map07048": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Other drugs",
+        "level3": "Antimigraines"
+    },
+    "map07049": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Other drugs",
+        "level3": "Antithrombosis agents"
+    },
+    "map07050": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Other drugs",
+        "level3": "Antirheumatics - DMARDs and biological agents"
+    },
+    "map07051": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Other drugs",
+        "level3": "Antidiabetics"
+    },
+    "map07052": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Other drugs",
+        "level3": "Antidyslipidemic agents"
+    },
+    "map07054": {
+        "level1": "Drug Development",
+        "level2": "Chronology: Other drugs",
+        "level3": "Antiglaucoma agents"
+    },
+    "map07220": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: G protein-coupled receptors",
+        "level3": "Cholinergic and anticholinergic drugs"
+    },
+    "map07215": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: G protein-coupled receptors",
+        "level3": "alpha-Adrenergic receptor agonists/antagonists"
+    },
+    "map07214": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: G protein-coupled receptors",
+        "level3": "beta-Adrenergic receptor agonists/antagonists"
+    },
+    "map07213": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: G protein-coupled receptors",
+        "level3": "Dopamine receptor agonists/antagonists"
+    },
+    "map07212": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: G protein-coupled receptors",
+        "level3": "Histamine H1 receptor antagonists"
+    },
+    "map07227": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: G protein-coupled receptors",
+        "level3": "Histamine H2/H3 receptor agonists/antagonists"
+    },
+    "map07211": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: G protein-coupled receptors",
+        "level3": "Serotonin receptor agonists/antagonists"
+    },
+    "map07228": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: G protein-coupled receptors",
+        "level3": "Eicosanoid receptor agonists/antagonists"
+    },
+    "map07224": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: G protein-coupled receptors",
+        "level3": "Opioid receptor agonists/antagonists"
+    },
+    "map07229": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: G protein-coupled receptors",
+        "level3": "Angiotensin receptor and endothelin receptor antagonists"
+    },
+    "map07225": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: Nuclear receptors",
+        "level3": "Glucocorticoid and mineralocorticoid receptor agonists/antagonists"
+    },
+    "map07226": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: Nuclear receptors",
+        "level3": "Progesterone, androgen and estrogen receptor agonists/antagonists"
+    },
+    "map07223": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: Nuclear receptors",
+        "level3": "Retinoic acid receptor (RAR) and retinoid X receptor (RXR) agonists/antagonists"
+    },
+    "map07222": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: Nuclear receptors",
+        "level3": "Peroxisome proliferator-activated receptor (PPAR) agonists"
+    },
+    "map07221": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: Ion channels",
+        "level3": "Nicotinic cholinergic receptor antagonists"
+    },
+    "map07230": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: Ion channels",
+        "level3": "GABA-A receptor agonists/antagonists"
+    },
+    "map07036": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: Ion channels",
+        "level3": "Calcium channel blocking drugs"
+    },
+    "map07231": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: Ion channels",
+        "level3": "Sodium channel blocking drugs"
+    },
+    "map07232": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: Ion channels",
+        "level3": "Potassium channel blocking and opening drugs"
+    },
+    "map07235": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: Ion channels",
+        "level3": "N-Methyl-D-aspartic acid (NMDA) receptor antagonists"
+    },
+    "map07233": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: Transporters",
+        "level3": "Ion transporter inhibitors"
+    },
+    "map07234": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: Transporters",
+        "level3": "Neurotransmitter transporter inhibitors"
+    },
+    "map07216": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: Enzymes",
+        "level3": "Catecholamine transferase inhibitors"
+    },
+    "map07219": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: Enzymes",
+        "level3": "Cyclooxygenase inhibitors"
+    },
+    "map07024": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: Enzymes",
+        "level3": "HMG-CoA reductase inhibitors"
+    },
+    "map07217": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: Enzymes",
+        "level3": "Renin-angiotensin system inhibitors"
+    },
+    "map07218": {
+        "level1": "Drug Development",
+        "level2": "Target-based classification: Enzymes",
+        "level3": "HIV protease inhibitors"
+    },
+    "map07025": {
+        "level1": "Drug Development",
+        "level2": "Structure-based classification",
+        "level3": "Quinolines"
+    },
+    "map07034": {
+        "level1": "Drug Development",
+        "level2": "Structure-based classification",
+        "level3": "Eicosanoids"
+    },
+    "map07035": {
+        "level1": "Drug Development",
+        "level2": "Structure-based classification",
+        "level3": "Prostaglandins"
+    },
+    "map07110": {
+        "level1": "Drug Development",
+        "level2": "Skeleton-based classification",
+        "level3": "Benzoic acid family"
+    },
+    "map07112": {
+        "level1": "Drug Development",
+        "level2": "Skeleton-based classification",
+        "level3": "1,2-Diphenyl substitution family"
+    },
+    "map07114": {
+        "level1": "Drug Development",
+        "level2": "Skeleton-based classification",
+        "level3": "Naphthalene family"
+    },
+    "map07117": {
+        "level1": "Drug Development",
+        "level2": "Skeleton-based classification",
+        "level3": "Benzodiazepine family"
+    }
+}
